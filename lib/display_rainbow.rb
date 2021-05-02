@@ -1,8 +1,4 @@
 # Write your #display_rainbow method here
-def display_rainbow
-  puts "R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet"
-  letters = ["b","a","c"]
-puts "The first letter in the alphabet is: #{letters[1]}"
-puts "The second letter in the alphabet is: #{letters[0]}"
-puts "The third letter in the alphabet is: #{letters[2]}"
-end
+  def display_rainbow(colors)
+    puts "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
+  end
